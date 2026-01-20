@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/trimmer/', // Assuming repo name is 'trimmer' or similar. Adjust later if needed.
+  base: '/audiosplitter2/', // Updated to match repo name
   server: {
     headers: {
       "Cross-Origin-Embedder-Policy": "require-corp",
